@@ -25,7 +25,7 @@ class DogsController < ApplicationController
   # POST /dogs.json
   def create
     @dog = Dog.new(dog_params)
-    @dog.owner = current_user
+    @dog.owner = current_user if current_user
 
     respond_to do |format|
       if @dog.save
