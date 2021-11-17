@@ -22,7 +22,7 @@ View the site at http://localhost:3000
 * [x] Add pagination
 * [ ] Multiple dog images on form
 * [x] Associate dogs with owners
-* [ ] Allow editing only by owner
+* [x] Allow editing only by owner
 * [x] Like other owners' dogs
 * [ ] Sort index page by number of likes in last hour
 * [ ] Display ad.jpg image after every two dogs in index
