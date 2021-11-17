@@ -26,3 +26,9 @@ View the site at http://localhost:3000
 * [x] Like other owners' dogs
 * [x] Sort index page by number of likes in last hour
 * [ ] Display ad.jpg image after every two dogs in index
+
+# Candidate Notes
+
+With more time, the first thing I would want to do is make the testing more robust. For example, adding helpers to simulate logging in a user would allow more thorough testing of the dog editing and destroying actions.
+
+Additionally, adding the `cancancan` gem for authorization would be worth exploring, but the very simple use cases in this challenge did not warrant the time it would take to set it up.
