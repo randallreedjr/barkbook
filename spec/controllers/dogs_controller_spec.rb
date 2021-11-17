@@ -7,9 +7,7 @@ RSpec.describe DogsController, type: :controller do
       get :index
       expect(assigns(:dogs).size).to eq(2)
     end
-  end
 
-  describe '#index' do
     it 'paginates dogs' do
       6.times { create(:dog) }
       get :index
