@@ -19,3 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.dog-container img {
+  max-width: 200px;
+}
