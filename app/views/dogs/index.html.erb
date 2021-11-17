@@ -1,2 +1,7 @@
+<%= form_tag('/dogs', method: 'get') do %>
+  <%= label_tag 'Sort by' %>
+  <%= select_tag 'sort_by', options_for_select([['Newest', 'newest'],['Recent Likes', 'recent_likes']], params['sort_by']) %>
+  <%= submit_tag('Sort') %>
+<% end %>
 <%= render partial: 'thumbnail', collection: @dogs, as: :dog %>
 <%= paginate @dogs %>
