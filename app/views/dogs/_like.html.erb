@@ -1,0 +1,6 @@
+<% if current_user && dog.likable?(current_user) %>
+  <%= form_tag("/likes", method: "post") do %>
+    <%= hidden_field_tag(:dog_id, dog.id) %>
+    <%= submit_tag("Like") %>
+  <% end %>
+<% end %>
