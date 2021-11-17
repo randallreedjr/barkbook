@@ -17,3 +17,11 @@ Run the specs with `rspec`
 Run the server with `rails s`
 
 View the site at http://localhost:3000
+
+# Tasks
+* [x] Add pagination
+* [ ] Multiple dog images on form
+* [ ] Associate dogs with owners
+* [ ] Like other owners' dogs
+* [ ] Sort index page by number of likes in last hour
+* [ ] Display ad.jpg image after every two dogs in index
